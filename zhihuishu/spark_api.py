@@ -149,26 +149,15 @@ def get_answer(question):
     give_question(question)
 
     answer = main(
-        api_secret='ODE2YjE1YWM0NzYyNjRiNjY1ZmQ3Mjhi',
-        api_key='958942f5cb6e4208fedbe1b1f1cadec7',
-        gpt_url='wss://spark-api.xf-yun.com/v4.0/chat',  # 例如 wss://spark-api.xf-yun.com/v4.0/chat
-        # api_secret='ODE2YjE1YWM0NzYyNjRiNjY1ZmQ3Mjhi',
-        # api_key='958942f5cb6e4208fedbe1b1f1cadec7',
-        # gpt_url='wss://spark-api.xf-yun.com/v1.1/chat',  # 例如 wss://spark-api.xf-yun.com/v4.0/chat
+        api_secret='改这里',
+        api_key='改这里',
+        gpt_url='改这里',  # 例如 wss://spark-api.xf-yun.com/v4.0/chat
+        # api_secret='改这里',
+        # api_key='改这里',
+        # gpt_url='改这里',  # 例如 wss://spark-api.xf-yun.com/v4.0/chat
 
     )
 
     return answer
 
 
-# if __name__ == "__main__":
-#
-#     give_question('1+1等于几')
-#
-#     answer =main(
-#         api_secret='ODE2YjE1YWM0NzYyNjRiNjY1ZmQ3Mjhi',
-#         api_key='958942f5cb6e4208fedbe1b1f1cadec7',
-#         gpt_url='wss://spark-api.xf-yun.com/v4.0/chat',  # 例如 wss://spark-api.xf-yun.com/v4.0/chat
-#     )
-#
-#     print(answer)
